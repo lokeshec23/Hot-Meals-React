@@ -4,25 +4,25 @@ function ShowCaseFood() {
     <>
       <div id="showcase">
         <div>
-          <img src="/images/vada.png" alt="" />
+          <img src="/images/vada.png" alt="vada" />
           <p>Vada</p>
           <button>30 min Delivery</button>
         </div>
 
         <div>
-          <img src="/images/idle.png" alt="" />
+          <img src="/images/idle.png" alt="idly" />
           <p>Idly</p>
           <button>30 min Delivery</button>
         </div>
 
         <div>
-          <img src="/images/parotta.png" alt="" />
+          <img src="/images/parotta.png" alt="parotta" />
           <p>Parotta</p>
           <button>30 min Delivery</button>
         </div>
 
         <div>
-          <img src="/images/kichadi.png" alt="" />
+          <img src="/images/kichadi.png" alt="kichadi" />
           <p>Kichadi</p>
           <button>30 min Delivery</button>
         </div>
