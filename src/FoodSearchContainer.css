@@ -1,0 +1,40 @@
+#food-search-container {
+  width: 100%;
+  height: 400px;
+  margin: 80px 0 80px 0;
+  background: #f6f5ee;
+}
+
+#food-search-container #food-text {
+  color: var(--theme-gray-900, #212121);
+  font-size: 30px;
+  position: relative;
+  top: 50px;
+  left: 150px;
+  font-weight: 700;
+  line-height: 112%;
+  font-family: "Poppins";
+}
+
+#search-food-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+#search-food-container img {
+  width: 200px;
+  padding: 10px;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+
+#search-food-container p {
+  color: var(--theme-gray-800, #424242);
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: center;
+}

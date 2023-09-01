@@ -1,5 +1,5 @@
-import "./YellowContainer.css";
-function YellowContainer() {
+import "./YellowComponent.css";
+function YellowComponent() {
   return (
     <>
       <div id="yellow-container">
@@ -57,4 +57,4 @@ function YellowContainer() {
   );
 }
 
-export default YellowContainer;
+export default YellowComponent;

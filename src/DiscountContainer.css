@@ -1,0 +1,53 @@
+#discount-container {
+    margin-bottom: 30px;
+  }
+  #discount-container #discount-heading {
+    color: #f17228;
+    text-align: center;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 112%;
+    margin: 80px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #discount-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto;
+    padding: 50px;
+    width: 80%;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 5px 27px 11px rgba(255, 181, 21, 0.1);
+  }
+  
+  #discount-box img {
+    width: 136px;
+    height: 136px;
+    flex-shrink: 0;
+  }
+  .left-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+  }
+  #discount-box .discount-text {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 120%;
+    background: linear-gradient(150deg, #fb3c00 0%, #ffb800 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  #discount-box .left-line {
+    border-right: 2px solid #cfcfcf;
+  }
+  
+  #discount-box .left-line:last-child {
+    border: none;
+  }
