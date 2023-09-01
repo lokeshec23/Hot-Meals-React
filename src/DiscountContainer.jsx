@@ -5,23 +5,23 @@ function DiscountContainer() {
       <div id="discount-container">
         <p id="discount-heading">How does it work</p>
         <div id="discount-box">
-          <div class="left-line">
+          <div className="left-line">
             <img src="/icons/discount-icon.svg" alt="discount-icon" />
-            <p class="discount-text">
+            <p className="discount-text">
               Daily <br />
               Discounts
             </p>
           </div>
-          <div class="left-line">
+          <div className="left-line">
             <img src="/icons/location-icon.svg" alt="location-icon" />
-            <span class="discount-text">
+            <span className="discount-text">
               Live <br />
               Tracking
             </span>
           </div>
-          <div class="left-line">
+          <div className="left-line">
             <img src="/icons/time-icon.svg" alt="time-icon" />
-            <span class="discount-text">
+            <span className="discount-text">
               Quick <br />
               Delivery
             </span>
