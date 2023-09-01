@@ -7,6 +7,7 @@ import DiscountContainer from "./DiscountContainer";
 import FoodSearchContainer from "./FoodSearchContainer";
 import BestDealsContainer from "./BestDealsContainer";
 import PopularItem from "./PopularItems";
+import Footer from "./Footer";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -17,5 +18,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <FoodSearchContainer />
     <BestDealsContainer />
     <PopularItem />
+    <Footer />
   </React.StrictMode>
 );
