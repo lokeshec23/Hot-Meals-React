@@ -1,0 +1,72 @@
+#best-deals-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+#deals-text {
+  text-align: justify;
+  margin-right: 50px;
+}
+
+#best-deals-container p {
+  color: #353535;
+
+  /* Headline 4 Bold */
+  font-family: "Poppins";
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 112%; /* 48.16px */
+}
+
+#best-deals-container p span {
+  color: var(--theme-primary, #ffb30e);
+
+  /* Headline 4 Bold */
+  font-family: "Poppins";
+  font-size: 43px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 112%;
+}
+
+#best-deals-container #text {
+  color: rgba(97, 97, 97, 0.69);
+  font-family: "Poppins";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin: 20px 0 60px 0;
+  line-height: 140%; /* 25.2px */
+  align-self: stretch;
+}
+
+#best-deals-container button {
+  cursor: pointer;
+  display: flex;
+  color: #fff;
+  width: 407px;
+  padding: 21px 48px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: var(
+    --yellow-button,
+    linear-gradient(150deg, #ffb800 0%, #ff8a00 100%)
+  );
+  border: none;
+  font-weight: 700;
+  font-family: "Poppins";
+  box-shadow: 0px 14px 32px 0px rgba(255, 178, 14, 0.29),
+    0px 5px 8px 0px rgba(222, 151, 0, 0.24);
+}
+
+#best-deals-container img {
+  width: 700px;
+  height: 350px;
+  flex-shrink: 0;
+  border-radius: 20px;
+}

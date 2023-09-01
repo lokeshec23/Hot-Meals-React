@@ -5,6 +5,8 @@ import YellowComponent from "./YellowComponent";
 import ShowCaseFood from "./ShowCaseFood";
 import DiscountContainer from "./DiscountContainer";
 import FoodSearchContainer from "./FoodSearchContainer";
+import BestDealsContainer from "./BestDealsContainer";
+import PopularItem from "./PopularItems";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -13,5 +15,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <ShowCaseFood />
     <DiscountContainer />
     <FoodSearchContainer />
+    <BestDealsContainer />
+    <PopularItem />
   </React.StrictMode>
 );
